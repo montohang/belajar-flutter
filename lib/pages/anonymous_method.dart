@@ -8,11 +8,11 @@ class MyAnonymousMethod extends StatefulWidget {
 class _MyAnonymousMethodState extends State<MyAnonymousMethod> {
   String message = "hallo ooii hallo";
 
-  void tombolDitekan() {
-    setState(() {
-      message = "Tombol berhasil ditekan";
-    });
-  }
+  // void tombolDitekan() {
+  //   setState(() {
+  //     message = "Tombol berhasil ditekan";
+  //   });
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,11 @@ class _MyAnonymousMethodState extends State<MyAnonymousMethod> {
               Text(message),
               RaisedButton(
                 child: Text("tekan sini bray"),
-                onPressed: null,
+                onPressed: () {
+                  setState(() {
+                    message = "Tombol berhasil ditekan";
+                  });
+                },
               )
             ],
           ),
