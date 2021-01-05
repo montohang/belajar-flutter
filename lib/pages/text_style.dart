@@ -14,7 +14,11 @@ class MyTextStyle extends StatelessWidget {
             style: TextStyle(
                 fontFamily: "FiraCode",
                 fontSize: 20,
-                fontStyle: FontStyle.italic),
+                fontStyle: FontStyle.italic,
+                decoration: TextDecoration.lineThrough,
+                decorationColor: Colors.black,
+                decorationThickness: 3,
+                decorationStyle: TextDecorationStyle.wavy),
           ),
         ),
       ),
