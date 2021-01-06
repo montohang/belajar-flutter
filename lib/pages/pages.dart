@@ -12,3 +12,6 @@ part 'flexible_widget.dart';
 part 'stack_and_align_widget.dart';
 part 'image_widget.dart';
 part 'dragable.dart';
+part 'login_page.dart';
+part 'main_page.dart';
+part 'second_page.dart';
