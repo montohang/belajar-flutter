@@ -10,3 +10,4 @@ part 'list_and_list_view.dart';
 part 'animated_container.dart';
 part 'flexible_widget.dart';
 part 'stack_and_align_widget.dart';
+part 'image_widget.dart';
