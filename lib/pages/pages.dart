@@ -11,3 +11,4 @@ part 'animated_container.dart';
 part 'flexible_widget.dart';
 part 'stack_and_align_widget.dart';
 part 'image_widget.dart';
+part 'dragable.dart';
